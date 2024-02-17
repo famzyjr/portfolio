@@ -21,10 +21,10 @@ const Footer = () => {
 
       
       <div className="footer__socials">
-        <a href="https://https://github.com/dashboard"><FaGithub /></a>
-        <a href="https://https://twitter.com/famzy_Jnr"><IoLogoTwitter /></a>
-        <a href="https://https://web.facebook.com/"><FaFacebookF /></a>
-        <a href="https://https://www.instagram.com/"><FiInstagram /></a>
+        <a href="https://https://github.com/dashboard " target='blank' ><FaGithub /></a>
+        <a href="https://https://twitter.com/famzy_Jnr"  target='blank' ><IoLogoTwitter /></a>
+        <a href="https://https://web.facebook.com/"  target='blank' ><FaFacebookF /></a>
+        <a href="https://https://www.instagram.com/"  target='blank' ><FiInstagram /></a>
       </div>
         <div className="footer__copyright">
           <small>&copy; Copyright <b className='name'>Famuyiwa Ahmed</b>. All rights reserved.</small>

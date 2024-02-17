@@ -62,13 +62,13 @@ const about = () => {
 
           <div className="about__socials">
             <a
-              href="https://https://github.com/dashboard"
+              href="https://github.com/famzyjr"
               rel="noopener noreferrer"
             >
               <FaGithub />{" "}
             </a>
             <a
-              href="https://linkkedin.com/in/abdulrafiu-mubarak-002687217"
+              href="https://www.linkedin.com/in/famuyiwa-ahmed-645788297/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -84,7 +84,7 @@ const about = () => {
               <IoLogoTwitter />{" "}
             </a>
             <a
-              href="https://https://www.instagram.com/"
+              href="https://www.instagram.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
