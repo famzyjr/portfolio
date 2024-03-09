@@ -59,39 +59,6 @@ const about = () => {
             about web development and I've made a lot of projects with multiple
             web technologies.
           </p>
-
-          <div className="about__socials">
-            <a
-              href="https://github.com/famzyjr"
-              rel="noopener noreferrer"
-            >
-              <FaGithub />{" "}
-            </a>
-            <a
-              href="https://www.linkedin.com/in/famuyiwa-ahmed-645788297/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {" "}
-              <BsLinkedin />
-            </a>
-            <a
-              href="https://https://twitter.com/famzy_Jnr"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {" "}
-              <IoLogoTwitter />{" "}
-            </a>
-            <a
-              href="https://www.instagram.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {" "}
-              <FiInstagram />{" "}
-            </a>
-          </div>
         </div>
       </div>
     </section>

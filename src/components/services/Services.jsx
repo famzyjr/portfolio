@@ -1,12 +1,9 @@
 import "aos/dist/aos.css";
 import "./services.css";
 import AOS from "aos";
-import { CiMobile1 } from "react-icons/ci";
 import { FaConnectdevelop } from "react-icons/fa";
 import { FaCode } from "react-icons/fa";
-import { FaPencilRuler } from "react-icons/fa";
 import { MdDevicesOther } from "react-icons/md";
-import { MdGraphicEq } from "react-icons/md";
 
 // ..
 AOS.init({
@@ -40,31 +37,6 @@ const data = [
     aos: "fade-right",
   }
   
-  
-  // {
-  //   id: 4,
-  //   Icon: FaPencilRuler,
-  //   title: "UI/UX Design",
-  //   desc: "I am passionate about creating intuitive and visually appealing digital experiences for users",
-  //   color: "orange",
-  //   aos: "fade-left",
-  // },
-  // {
-  //   id: 5,
-  //   Icon: MdGraphicEq,
-  //   title: "Graphics Design",
-  //   desc: "I am a graphics designer, skilled in creating visually stunning designs for a variety of media",
-  //   color: "purple",
-  //   aos: "fade-right",
-  // },
-  // {
-  //   id: 6,
-  //   Icon: CiMobile1,
-  //   title: "Mobile App Design",
-  //   desc: "I am specialize in creating intuitive and visually appealing interfacec for users to interact with",
-  //   color: "#4db5ff",
-  //   aos: "fade-left",
-  //   },
 ]
 
 const Services = () => {
