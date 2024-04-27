@@ -2,7 +2,7 @@ import "aos/dist/aos.css";
 import "./contact.css";
 import AOS from "aos";
 import React from "react";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 import { BsWhatsapp } from "react-icons/bs";
 import { MdOutlineEmail } from "react-icons/md";
@@ -15,15 +15,20 @@ AOS.init({
 
 
 const Contact = () => {
-    const form = useRef();
-  
-    const sendEmail = (e) => {
-      e.preventDefault();
-  
-      emailjs.sendForm('service_i2mdb46', 'template_w9y1llc', form.current, 'cuHmTJVWYL4wlXr37')
+   const form = useRef()
+   
+   const sendEmail = (e) =>{
+    e.preventDefault();
 
-      e.target.reset()
-    };
+    emailjs.sendForm('service_pkx138v','template_wt0ix8h', form.current,'fM5CBuJrTuizLWMIN')
+    .then((result) =>{
+      console.log(result.text);
+    }, (error) => {
+          console.log(error.text);
+    });
+    e.target.reset()
+   };
+   
   return (
     <section id="contact" data-aos="zoom-in-down">
       <h5>Get in Touch</h5>
