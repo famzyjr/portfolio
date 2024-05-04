@@ -20,7 +20,7 @@ const Contact = () => {
    const sendEmail = (e) =>{
     e.preventDefault();
 
-    emailjs.sendForm('service_pkx138v','template_wt0ix8h', form.current,'fM5CBuJrTuizLWMIN')
+    emailjs.sendForm('service_oidc5kk','template_wt0ix8h', form.current,'nU0sC09wFflr-4Tk7')
     .then((result) =>{
       console.log(result.text);
     }, (error) => {
