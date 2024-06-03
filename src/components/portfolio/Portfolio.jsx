@@ -7,7 +7,7 @@ import Img2 from "../../assets/Home.JPG";
 import Img3 from "../../assets/wages.PNG";
 import Img6 from "../../assets/IgClone.JPG";
 import React from "react";
-import blog from "../../assets/blog.JPG";
+import Blog from "../../assets/Blog.png"
 import wordle from "../../assets/wordle.JPG";
 
 // ..
@@ -18,11 +18,11 @@ AOS.init({
 const data = [
   {
     id: 1,
-    img: Img1,
-    title: "Meeting Minutes Management System",
-    // github: "https://github.com/MinuteApp",
-    desc: "A web application for taking meetingss minutes by recording the meeting audio and video and transcribing meeting audio text to generate meeting minutes. It also helps in keeping, retrieving and managing meeting minutes.",
-    demo: "#"
+    img: Blog ,
+    title: "Blog",
+    github: "https://github.com/famzyjr/Blog-.git",
+    desc: "A blog website is a platform where individuals or organizations can share their thoughts, ideas, experiences, and information with an online audience. ",
+    demo: "https://blog-two-mauve-79.vercel.app/"
   },
   {
     id: 2,

@@ -54,16 +54,6 @@ const skillData = [
 
 const educationData = [
   {
-    id: 1,
-    cert: 'JSCE',
-    sch: "Isolo Comprehensive junior high school",
-  },
-  {
-    id: 2,
-    cert: 'SSCE',
-    sch: "Turning point Secondary School",
-  },
-  {
     id: 3,
     cert: 'Software Tech Certified',
     sch: "Gomycode",
@@ -108,7 +98,6 @@ const Experience = () => {
               <h5 className="cert"> {cert} </h5>
               <div className="schoolYear">
                 <p> {sch} </p>
-                <small className='year'> {year} </small>
               </div>
             </article>
                 )
