@@ -1,14 +1,9 @@
 import "aos/dist/aos.css";
 import "./portfolio.css";
 import AOS from "aos";
-import Github from "../../assets/GithubSearch.JPG";
-import Img1 from "../../assets/MinuteApp.PNG";
 import Img2 from "../../assets/Home.JPG";
 import Img3 from "../../assets/wages.PNG";
-import Img6 from "../../assets/IgClone.JPG";
-import React from "react";
 import Blog from "../../assets/blog.png"
-import wordle from "../../assets/wordle.JPG";
 
 // ..
 AOS.init({
