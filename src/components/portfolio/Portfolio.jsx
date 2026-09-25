@@ -3,7 +3,7 @@ import "./portfolio.css";
 import AOS from "aos";
 import Img2 from "../../assets/Home.JPG";
 import Img3 from "../../assets/wages.PNG";
-import Blog from "../../assets/blog.PNG"
+import Blog from "../../assets/blog.png"
 
 // ..
 AOS.init({
