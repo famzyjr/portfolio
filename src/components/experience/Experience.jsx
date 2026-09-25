@@ -13,7 +13,7 @@ import react from "../../assets/tech/reactjs.png";
 import redux from "../../assets/tech/redux.png";
 // import tailwind from "../../assets/tech/tailwind.png";
 // import threejs from "../../assets/tech/threejs.svg";
-
+import Type from '../../assets/Type.png'
 // ..
 AOS.init({
   duration: 2000,
@@ -48,7 +48,10 @@ const skillData = [
     skill: "Redux",
     img: redux,
   },
-  
+   {
+    skill: "Redux",
+    img: Type,
+  },
  
 ]
 
@@ -56,7 +59,7 @@ const educationData = [
   {
     id: 3,
     cert: 'Software Tech Certified',
-    sch: "Gomycode",
+    sch: "freeCodeCamp",
   },
 ]
 

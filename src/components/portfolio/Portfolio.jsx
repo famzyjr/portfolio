@@ -7,7 +7,7 @@ import Img2 from "../../assets/Home.JPG";
 import Img3 from "../../assets/wages.PNG";
 import Img6 from "../../assets/IgClone.JPG";
 import React from "react";
-import Blog from "../../assets/Blog.png"
+import Blog from "../../assets/blog.png"
 import wordle from "../../assets/wordle.JPG";
 
 // ..
@@ -20,7 +20,7 @@ const data = [
     id: 1,
     img: Blog ,
     title: "Blog",
-    github: "https://github.com/famzyjr/Blog-.git",
+    github: "https://cw-blog-application.vercel.app/",
     desc: "A blog website is a platform where individuals or organizations can share their thoughts, ideas, experiences, and information with an online audience. ",
     demo: "https://blog-two-mauve-79.vercel.app/"
   },
